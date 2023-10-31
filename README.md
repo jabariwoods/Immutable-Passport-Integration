@@ -1,7 +1,7 @@
 # Immutable-Passport-Integration
-This guide will walk you through the process of integrating Immutable Passport into a simple Node.js application. I'll also provide a basic example app that demonstrates the integration.
+This guide will walk you through the process of integrating Immutable Passport into a simple Node.js application. I'll also provide a basic example app that demonstrates the integration with a demo of a decentralised social network - Greazy.
 
-Before we dive into the integration steps, let's take a look at the sample app. The sample app is a basic web application that allows users to log in using Immutable Passport and displays their nickname, ID token, and access token. We have named this web app 'immutable-passport-demo'.
+Before we dive into the integration steps, let's take a look at the sample app. The sample app is a basic web application that allows users to log in using Immutable Passport and displays their nickname, ID token, and access token. 
 
 Prerequisites:
 
@@ -20,7 +20,11 @@ npm install
 
 3. Set Up Immutable Passport
 Register your application on the Immutable Developer Hub to obtain API keys.
-In the config.js file, replace 'YOUR_API_KEY' and 'YOUR_API_SECRET' with your actual API keys.
+In a config.js file, replace 'YOUR_API_KEY' and 'YOUR_API_SECRET' with your actual API keys.
+In the project, create a .env file and add your API keys like this:
+
+PASSPORT_API_KEY=YOUR_API_KEY
+PASSPORT_API_SECRET=YOUR_API_SECRET
 
 Run the App
 To start the app, run the following command:
