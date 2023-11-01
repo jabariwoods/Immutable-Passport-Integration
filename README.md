@@ -92,3 +92,6 @@ Provide a button or path for users to log out, which ends their session and take
 7. Initiate a Transaction
 Sending transactions from your application using the Passport SDK is necessary because, ultimately, a wallet must be utilized.
 That's it! You've successfully integrated Immutable Passport into your application.
+
+Contribution and License
+For contributions and usage guidelines, the project is licensed under the MIT License.
