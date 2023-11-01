@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Posts</title>
+</head>
+<body>
+  <h1>Posts</h1>
+  <ul>
+    <% posts.forEach(post => { %>
+      <li><strong><%= post.author %>:</strong> <%= post.text %></li>
+    <% }); %>
+  </ul>
+  <form action="/create-post" method="post">
+    <input type="text" name="text" placeholder="Write a post..." required>
+    <button type="submit">Post</button>
+  </form>
+  <a href="/profile">Back to Profile</a>
+  <a href="/logout">Logout</a>
+</body>
+</html>
+
