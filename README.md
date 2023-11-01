@@ -15,7 +15,7 @@ The "Greazy" Decentralized Social Network is a sample application that showcases
 You can clone the sample app from our GitHub repository:
 
 git clone https://github.com/jabariwoods/Immutable-Passport-Integration
-cd sample-immutable-passport-app
+cd Immutable-passport-app
 
 
 2. Install Dependencies
@@ -24,12 +24,15 @@ In the project directory, run the following command to install the required depe
 npm install
 
 3. Set Up Immutable Passport
-Register your application on the Immutable Developer Hub to obtain API keys.
+Go to the Immutable Developer Hub.
+Create an account or sign in.
+Register your application and obtain API keys.
 In a config.js file, replace 'YOUR_API_KEY' and 'YOUR_API_SECRET' with your actual API keys.
 In the project, create a .env file and add your API keys like this:
 
 PASSPORT_API_KEY=YOUR_API_KEY
 PASSPORT_API_SECRET=YOUR_API_SECRET
+NB: Please replace placeholders like YOUR_API_KEY and YOUR_API_SECRET with your actual Immutable Passport API keys in your .env file and configure other parts of the application as needed. 
 
 Run the App
 To start the app, run the following command:
