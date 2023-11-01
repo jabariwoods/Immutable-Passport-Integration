@@ -1,17 +1,22 @@
 # Immutable-Passport-Integration
 This guide will walk you through the process of integrating Immutable Passport into a simple Node.js application. I'll also provide a basic example app that demonstrates the integration with a demo of a decentralised social network - Greazy.
 
-Before we dive into the integration steps, let's take a look at the sample app. The sample app is a basic web application that allows users to log in using Immutable Passport and displays their nickname, ID token, and access token. 
+Before we dive into the integration steps, let's take a look at the sample app. The sample app is a basic web application that allows users to log in using Immutable Passport and displays their nickname, ID token, and access token. Building a decentralized social network is a significant undertaking, and this example is intended to provide a starting point for showcasing Immutable Passport integration in such an app. 
 
 Prerequisites:
-
+A basic understanding of JavaScript and Node.js
 Node.js installed on your machine
+
+Sample App
+The "Greazy" Decentralized Social Network is a sample application that showcases Immutable Passport integration. It allows users to create profiles, post content, and interact with other users in a decentralized and secure environment.
+
 
 1.Clone the Sample App
 You can clone the sample app from our GitHub repository:
 
 git clone https://github.com/jabariwoods/Immutable-Passport-Integration
 cd sample-immutable-passport-app
+
 
 2. Install Dependencies
 In the project directory, run the following command to install the required dependencies:
