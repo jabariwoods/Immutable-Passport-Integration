@@ -7,6 +7,9 @@ Prerequisites:
 A basic understanding of JavaScript and Node.js
 Node.js installed on your machine
 
+Sample App
+The "Greazy" Decentralized Social Network is a sample application that showcases Immutable Passport integration. It allows users to create profiles, post content, and interact with other users in a decentralized and secure environment.
+
 
 1.Clone the Sample App
 You can clone the sample app from our GitHub repository:
