@@ -1,0 +1,25 @@
+{
+  "name": "greazy",
+  "version": "1.0.0",
+  "description": "Your Decentralized Social Network",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["social-network", "immutable-passport", "decentralized", "web-app"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@immutable/passport": "^1.0.0", // Replace with the actual version
+    "body-parser": "^1.19.0",
+    "express-session": "^1.17.1",
+    "ejs": "^3.1.6" // Assuming you're using EJS as the templating engine
+    // Add any other dependencies your project requires
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "14.x" // Adjust the Node.js version as needed
+  }
+}
+
