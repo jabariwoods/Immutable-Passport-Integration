@@ -28,10 +28,11 @@ Go to the Immutable Developer Hub.
 Create an account or sign in.
 Register your application and obtain API keys.
 In a config.js file, replace 'YOUR_API_KEY' and 'YOUR_API_SECRET' with your actual API keys.
-In the project, create a .env file and add your API keys like this:
+In the project, create a .env file and add your API keys like this(The .env file should never be committed to version control to keep sensitive information secure. Add it to your .gitignore file to exclude it from your repository):
 
 PASSPORT_API_KEY=YOUR_API_KEY
 PASSPORT_API_SECRET=YOUR_API_SECRET
+
 NB: Please replace placeholders like YOUR_API_KEY and YOUR_API_SECRET with your actual Immutable Passport API keys in your .env file and configure other parts of the application as needed. 
 
 Run the App
